@@ -6,9 +6,7 @@
 </p>
 
 ## Screenshots
-<p align="center">
 ![ui-design@2x](https://user-images.githubusercontent.com/31030616/61168433-31f31080-a55f-11e9-89a6-82ebe5294458.png)
-</p>
 
 ## Prerequisite:
 1. Node.js to be installed.
