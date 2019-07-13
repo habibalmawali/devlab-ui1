@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+ion-card, ion-button, ion-title {
+    font-family: 'Staatliches';
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+ion-toolbar {
+    --opacity: 0;
+    color: #fff;
+}
+
+ion-content {
+    --background: linear-gradient(160deg, rgba(108,196,255,1) 0%, rgba(127,183,255,1) 50%, rgba(117,50,218,1) 100%);
+    --color: #fff;
+
+    div {
+        height: 100%;
+        display: grid;
+        justify-items: center;
+        align-items:center;
+    }
+
+    ion-card {
+        // margin-top: 100px;
+        border-radius: 40px;
+        --color: #222;
+        text-align: left;
+
+        ion-card-content {
+            h2 {
+                font-size: 24px;
+                font-weight: bolder;
+                margin-bottom: 20px;
+                color: rgba(117,50,218,1);
+            }
+
+            p {
+                color: rgba(117,50,218,.8);
+            }
+
+            ion-button {
+                --color: #fff;
+                --box-shadow: none;
+            }
+        }
+
+    }
+
+    ion-card {
+        --background: linear-gradient(-10deg, rgba(117,50,218,.1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 100%);
+
+        ion-button {
+            --background: linear-gradient(45deg, rgba(117,50,218,.6) 0%, rgba(117,50,218,.8) 50%, rgba(117,50,218,1) 100%);
+        }
+
+    }
+
+}
+
+
+
+

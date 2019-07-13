@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+ion-card, ion-button, ion-title {
+    font-family: 'Staatliches';
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+ion-content {
+
+    ion-slides {
+        height: 100%;
+    }
+
+    ion-card {
+        // margin-top: 40px;
+
+        border-radius: 26px;
+        --color: #fff;
+        text-align: left;
+
+        ion-card-content {
+            h2 {
+                font-size: 24px;
+                font-weight: bolder;
+                margin-bottom: 20px;
+            }
+
+            ion-button {
+                --color: rgba(0,0,0,.9);
+                --box-shadow: none;
+            }
+        }
+
+    }
+
+
+    .card1 {
+
+        background: linear-gradient(160deg, rgba(108,196,255,1) 0%, rgba(127,183,255,1) 50%, rgba(117,50,218,1) 100%);
+        ion-button {
+            --background: linear-gradient(90deg, rgba(127,183,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+        }
+
+    }
+
+    .card2 {
+        --background: linear-gradient(45deg, rgba(39,87,204,1) 0%, rgba(99,170,219,1) 50%, rgba(153,203,237,1) 100%);
+
+        ion-button {
+            --background: linear-gradient(90deg, rgba(153,203,237,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+        }
+
+    }
+
+
+    .card3 {
+        --background: linear-gradient(45deg, rgba(250,194,236,1) 0%, rgba(161,141,207,1) 60%, rgba(161,141,207,1) 100%);
+
+        ion-button {
+            --background: linear-gradient(90deg, rgba(250,194,236,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+        }
+
+    }
+
+}
